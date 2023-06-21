@@ -15,7 +15,7 @@ def bubble_sort(arr, sorting_order):
     if n>10:
         return 1
 
-    for i in arr_result:
+    for i in arr:
         if type(i)!=int:
             return 2
 
@@ -51,7 +51,7 @@ def bubble_sort(arr, sorting_order):
 
 def main():
     # Driver code to test above
-    arr = []
+    arr = [1.1, 2, 3]
 
     # Sort in ascending order
     result = bubble_sort(arr, SORT_ASCENDING)
